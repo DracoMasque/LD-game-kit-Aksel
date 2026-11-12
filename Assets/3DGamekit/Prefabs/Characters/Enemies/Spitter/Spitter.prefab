@@ -1253,6 +1253,8 @@ SkinnedMeshRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -1275,9 +1277,11 @@ SkinnedMeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   serializedVersion: 2
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
@@ -2573,7 +2577,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1500461124768838}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.043139856, z: -0, w: 0.99906904}
+  m_LocalRotation: {x: 0, y: 0.04313983, z: 0, w: 0.9990691}
   m_LocalPosition: {x: 40.09, y: -2.99, z: 25.67}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2621,12 +2625,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerScanner:
     heightOffset: 1
-    detectionRadius: 15
-    detectionAngle: 360
-    maxHeightDifference: 1
+    detectionRadius: 9.83
+    detectionAngle: 162
+    maxHeightDifference: 205
     viewBlockerLayerMask:
       serializedVersion: 2
-      m_Bits: 3221225472
+      m_Bits: 3221291008
   fleeingDistance: 6
   rangeWeapon: {fileID: 114662184025807022}
   attackAudio: {fileID: 114923101681695934}
