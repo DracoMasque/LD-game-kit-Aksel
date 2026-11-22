@@ -5278,7 +5278,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shotType: 1
   projectileSpeed: 20
-  damageAmount: 2
+  damageAmount: 3
   damageMask:
     serializedVersion: 2
     m_Bits: 512

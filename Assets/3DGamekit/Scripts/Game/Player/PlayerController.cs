@@ -17,7 +17,7 @@ namespace Gamekit3D
 
         public float maxForwardSpeed = 8f;        // How fast Ellen can run.
         public float gravity = 20f;               // How fast Ellen accelerates downwards when airborne.
-        public float jumpSpeed = 10f;             // How fast Ellen takes off when jumping.
+        public float jumpSpeed = 0;             // How fast Ellen takes off when jumping.
         public float minTurnSpeed = 400f;         // How fast Ellen turns when moving at maximum speed.
         public float maxTurnSpeed = 1200f;        // How fast Ellen turns when stationary.
         public float idleTimeout = 5f;            // How long before Ellen starts considering random idles.

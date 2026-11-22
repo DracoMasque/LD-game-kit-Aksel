@@ -394,80 +394,6 @@ MonoBehaviour:
   overrides: []
   playing: 0
   canPlay: 0
---- !u!1 &1084271649997968
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4390321906491500}
-  - component: {fileID: 114785638482758924}
-  - component: {fileID: 65820526907324108}
-  m_Layer: 28
-  m_Name: BodyDamager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4390321906491500
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1084271649997968}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4121626901829952}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114785638482758924
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1084271649997968}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 05cf15f0f3c811d47b802c309648aed4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  helpString: "\r\nRemember to have a collider set to trigger on this object or one
-    of its children!\r\nAlso Remember to place that object in a layer that collide
-    with what you want to damage \r\n(e.g. the Enemy layer does not collide with
-    the Player layer, so add it to a child in a different layer)\r\n"
-  amount: 1
-  damagedLayers:
-    serializedVersion: 2
-    m_Bits: 512
---- !u!65 &65820526907324108
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1084271649997968}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.67719364, y: 0.7197622, z: 0.66300535}
-  m_Center: {x: -0.0053212643, y: 0.41326183, z: 0.07626712}
 --- !u!1 &1087537970017216
 GameObject:
   m_ObjectHideFlags: 0
@@ -2586,7 +2512,6 @@ Transform:
   - {fileID: 4519171299108680}
   - {fileID: 4212300717403786}
   - {fileID: 4763512264112884}
-  - {fileID: 4390321906491500}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 4.945, z: 0}
 --- !u!95 &95557445243245256
