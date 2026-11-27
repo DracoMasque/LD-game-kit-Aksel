@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4177801968482638}
   - component: {fileID: 205153857527553148}
+  - component: {fileID: 3892140238364500509}
   m_Layer: 16
   m_Name: DoorHuge01
   m_TagString: Untagged
@@ -61,6 +62,26 @@ LODGroup:
     - renderer: {fileID: 23362046248609286}
     - renderer: {fileID: 23662564808006306}
   m_Enabled: 1
+--- !u!114 &3892140238364500509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1095233907428528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.AI.Navigation::Unity.AI.Navigation.NavMeshModifier
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 1
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1146766130416144
 GameObject:
   m_ObjectHideFlags: 0
